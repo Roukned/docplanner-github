@@ -6,6 +6,7 @@
     flex-grow: 1;
     align-items: center;
     margin: 0 auto;
+    padding: ;
 
 
     background-color: white;
@@ -13,14 +14,19 @@
 }
 #nav-logo{
     height: 33px;
-    width: auto;
+    width: 268px;
 }
 .nav-link{
     list-style: none;
     text-decoration: none;
     color: rgba(0, 0, 0, 0.507);
+    font-size: 15px;
 }
 .nav-items{
     list-style: none;
     display: flex;
+    gap: 30px;
+}
+.nav-item{
+    padding: 0;
 }
